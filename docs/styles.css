@@ -1,0 +1,18 @@
+/*main body style*/
+body{
+    background: #73AFD4;
+    font-family: Monospaced, monospace;
+    font-size: 16pt;
+
+}
+
+
+/*creating style for default textbox*/
+div.textbox {
+    text-align: justify;
+    background: snow;
+    padding: 20px;
+    border-radius: 10px 25px;
+    width: 80%;
+    margin:auto;
+}
