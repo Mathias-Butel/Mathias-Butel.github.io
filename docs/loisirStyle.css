@@ -1,0 +1,13 @@
+body{
+    background: orchid;
+}
+
+div.subtitle{
+    background: orchid;
+}
+
+#profil{
+    border-top: none;
+    background: none;
+    color: black;
+}

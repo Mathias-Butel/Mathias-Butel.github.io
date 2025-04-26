@@ -1,0 +1,13 @@
+body{
+    background: mediumspringgreen;
+}
+
+div.subtitle{
+    background: mediumspringgreen;
+}
+
+#profil{
+    border-top: none;
+    background: none;
+    color: black;
+}

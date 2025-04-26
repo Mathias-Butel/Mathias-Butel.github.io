@@ -1,0 +1,13 @@
+body{
+    background: lightsalmon;
+}
+
+div.subtitle{
+    background: lightsalmon;
+}
+
+#profil{
+    border-top: none;
+    background: none;
+    color: black;
+}

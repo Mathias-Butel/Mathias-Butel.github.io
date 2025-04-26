@@ -1,0 +1,12 @@
+body{
+    background: lightpink;
+}
+div.subtitle{
+    background: lightpink;
+}
+
+#profil{
+    border-top: none;
+    background: none;
+    color: black;
+}

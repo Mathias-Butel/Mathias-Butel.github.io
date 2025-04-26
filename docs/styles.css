@@ -1,18 +1,103 @@
 /*main body style*/
 body{
-    background: #73AFD4;
     font-family: Monospaced, monospace;
-    font-size: 16pt;
+    font-size: 20px;
+    align-items: center;
 
+}
+/*footer settings*/
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    height: 8%;
+
+}
+.footerButton{
+    border-top: black solid 3px;
+    background: darkgray;
+    color: white;
+    float: left;
+    text-align: center;
+    line-height: 8vh;
+    font-weight: bold;
+    width: calc(20% - 3px);
+    height: 100%;
+    margin: 0;
+    border-right: black solid 3px;
+}
+
+.footerButton:hover{
+    background: lightgrey;
+    color: black;
 }
 
 
 /*creating style for default textbox*/
 div.textbox {
-    text-align: justify;
+    text-align: left;
     background: snow;
     padding: 20px;
     border-radius: 10px 25px;
     width: 80%;
     margin:auto;
+    margin-top: 2%;
+    line-height: 40px;
+
+}
+div.titlebox {
+    text-align: center;
+    background: black;
+    padding: 20px;
+    border-radius: 10px 25px;
+    width: fit-content;
+    margin:auto;
+    margin-top: 1%;
+    margin-left: 9%;
+    margin-right: 9%;
+    font-size: 30px;
+    color: white;
+}
+
+div.subtitle{
+    margin: auto;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+#page{
+    margin-left: auto;
+    margin-right: 9%;
+    margin-top: 2%;
+    font-size: 40px;
+    background: lightgrey;
+    color: black;
+}
+
+strong{
+    font-size: 30px
+}
+
+div.button{
+    text-align: center;
+    background: snow;
+    padding: 20px;
+    border-radius: 10px 25px;
+    width: fit-content;
+    margin:auto;
+    margin-top: 5%;
+    line-height: 40px;
+    border: black solid 3px;
+    color: black;
+}
+
+div.button:hover{
+    background: lightblue;
+    font-weight: bold;
 }

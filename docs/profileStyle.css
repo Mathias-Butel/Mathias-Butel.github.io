@@ -1,0 +1,13 @@
+body{
+    background: skyblue;
+}
+
+div.subtitle{
+    background: skyblue;
+}
+
+#profil{
+    border-top: none;
+    background: none;
+    color: black;
+}
